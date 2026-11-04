@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 100px;
+    transform: translate(-50%, -50%);
+    text-decoration: underline;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cadetblue;
+    padding: 20px 40px;
+}
+.nav div{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+.nav a{
+    /* text-decoration: none; */
+    color: #fff;
+}
+.nav a:hover{
+   color: brown;
+}
